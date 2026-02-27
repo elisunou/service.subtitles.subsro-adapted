@@ -1,0 +1,426 @@
+# Kodi Media Center language file
+# Addon Name: Subs.ro
+# Addon id: service.subtitles.subsro
+# Addon Provider: Subs.ro Community
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Romanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+
+# ============================================================================
+#                           AUTENTIFICARE (30001-30009)
+# ============================================================================
+
+msgctxt "#30001"
+msgid "Authentication"
+msgstr "Autentificare"
+
+msgctxt "#30002"
+msgid "Subs.ro API Key"
+msgstr "Cheie API Subs.ro"
+
+msgctxt "#30003"
+msgid "How to obtain an API key?"
+msgstr "Cum obțin o cheie API?"
+
+msgctxt "#30004"
+msgid "1. Visit https://subs.ro/api"
+msgstr "1. Accesează https://subs.ro/api"
+
+msgctxt "#30005"
+msgid "2. Login with your account"
+msgstr "2. Autentifică-te cu contul tău"
+
+msgctxt "#30006"
+msgid "3. Generate/Copy API key"
+msgstr "3. Generează/Copiază cheia API"
+
+msgctxt "#30007"
+msgid "4. Paste the key above"
+msgstr "4. Lipește cheia mai sus"
+
+msgctxt "#30008"
+msgid "Check API quota on every search"
+msgstr "Verifică quota API la fiecare căutare"
+
+msgctxt "#30009"
+msgid "Show warning when quota drops below 10%"
+msgstr "Afișează avertisment când quota scade sub 10%"
+
+# ============================================================================
+#                           MOD DESCĂRCARE (30010-30019)
+# ============================================================================
+
+msgctxt "#30010"
+msgid "Download"
+msgstr "Descărcare"
+
+msgctxt "#30011"
+msgid "Download mode"
+msgstr "Mod descărcare"
+
+msgctxt "#30012"
+msgid "Automatic"
+msgstr "Automat"
+
+msgctxt "#30013"
+msgid "Manual"
+msgstr "Manual"
+
+msgctxt "#30014"
+msgid "Ask every time"
+msgstr "Întreabă de fiecare dată"
+
+msgctxt "#30015"
+msgid "[B]Automatic[/B]: Download best match automatically"
+msgstr "[B]Automat[/B]: Descarcă automat cea mai potrivită subtitrare"
+
+msgctxt "#30016"
+msgid "[B]Manual[/B]: Show list for manual selection"
+msgstr "[B]Manual[/B]: Afișează lista pentru selecție manuală"
+
+msgctxt "#30017"
+msgid "[B]Ask[/B]: Confirm before automatic download"
+msgstr "[B]Întreabă[/B]: Confirmă înainte de descărcare automată"
+
+msgctxt "#30018"
+msgid "Minimum score threshold for auto-download"
+msgstr "Prag minim scor pentru auto-descărcare"
+
+msgctxt "#30019"
+msgid "Recommended: 50-100. Higher = stricter matching."
+msgstr "Recomandat: 50-100. Cu cât mai mare, cu atât mai strict."
+
+# ============================================================================
+#                           MATCHMAKING (30020-30034)
+# ============================================================================
+
+msgctxt "#30020"
+msgid "Matchmaking"
+msgstr "Matchmaking"
+
+msgctxt "#30021"
+msgid "Enable smart matchmaking"
+msgstr "Activează matchmaking inteligent"
+
+msgctxt "#30022"
+msgid "Strict episode matching (S##E##)"
+msgstr "Potrivire strictă episod (S##E##)"
+
+msgctxt "#30023"
+msgid "Prioritize video source (BluRay/WEB/HDTV)"
+msgstr "Prioritizează sursa video (BluRay/WEB/HDTV)"
+
+msgctxt "#30024"
+msgid "Prioritize release group"
+msgstr "Prioritizează release group"
+
+msgctxt "#30025"
+msgid "Prioritize resolution (1080p/720p/2160p)"
+msgstr "Prioritizează rezoluția (1080p/720p/2160p)"
+
+msgctxt "#30026"
+msgid "Prioritize retail/official subtitles"
+msgstr "Prioritizează subtitrări retail/official"
+
+msgctxt "#30027"
+msgid "(Netflix, HBO, Amazon, Disney+, iTunes, etc.)"
+msgstr "(Netflix, HBO, Amazon, Disney+, iTunes, etc.)"
+
+msgctxt "#30028"
+msgid "Show match scores in list"
+msgstr "Afișează scorul de potrivire în listă"
+
+msgctxt "#30029"
+msgid "Useful for debugging and understanding the algorithm"
+msgstr "Util pentru debugging și înțelegerea algoritmului"
+
+msgctxt "#30030"
+msgid "[B]Scoring algorithm:[/B]"
+msgstr "[B]Algoritm de scoring:[/B]"
+
+msgctxt "#30031"
+msgid "• Correct episode: +100 points"
+msgstr "• Episod corect: +100 puncte"
+
+msgctxt "#30032"
+msgid "• Identical source: +50 points"
+msgstr "• Sursă identică: +50 puncte"
+
+msgctxt "#30033"
+msgid "• Release group: +30 points"
+msgstr "• Release group: +30 puncte"
+
+msgctxt "#30034"
+msgid "• Priority translator: +15 points"
+msgstr "• Traducător prioritar: +15 puncte"
+
+# ============================================================================
+#                           FILTRARE (30040-30046)
+# ============================================================================
+
+msgctxt "#30040"
+msgid "Filtering"
+msgstr "Filtrare"
+
+msgctxt "#30041"
+msgid "Exclude hearing impaired subtitles (SDH)"
+msgstr "Exclude subtitrări pentru deficiențe auditive (SDH)"
+
+msgctxt "#30042"
+msgid "Filter subtitles marked with [HI] or [SDH]"
+msgstr "Filtrează subtitrări marcate cu [HI] sau [SDH]"
+
+msgctxt "#30043"
+msgid "Filter by video FPS"
+msgstr "Filtrează după FPS video"
+
+msgctxt "#30044"
+msgid "[COLOR orange]EXPERIMENTAL[/COLOR] - Requires FPS detection"
+msgstr "[COLOR orange]EXPERIMENTAL[/COLOR] - Necesită detectare FPS"
+
+msgctxt "#30045"
+msgid "Minimum subtitle rating"
+msgstr "Rating minim subtitrare"
+
+msgctxt "#30046"
+msgid "0 = accept any rating"
+msgstr "0 = acceptă orice rating"
+
+# ============================================================================
+#                           CACHE (30050-30056)
+# ============================================================================
+
+msgctxt "#30050"
+msgid "Cache"
+msgstr "Cache"
+
+msgctxt "#30051"
+msgid "Enable cache for search results"
+msgstr "Activează cache pentru rezultate căutare"
+
+msgctxt "#30052"
+msgid "Reduces response time and API requests"
+msgstr "Reduce timpul de răspuns și cererile API"
+
+msgctxt "#30053"
+msgid "Cache duration (minutes)"
+msgstr "Durată cache (minute)"
+
+msgctxt "#30054"
+msgid "Cache expires after this period"
+msgstr "Cache-ul expiră după această perioadă"
+
+msgctxt "#30055"
+msgid "Clear cache on Kodi startup"
+msgstr "Șterge cache la pornirea Kodi"
+
+msgctxt "#30056"
+msgid "[COLOR red]Clear cache now[/COLOR]"
+msgstr "[COLOR red]Șterge cache acum[/COLOR]"
+
+# ============================================================================
+#                           AVANSATE (30060-30076)
+# ============================================================================
+
+msgctxt "#30060"
+msgid "Advanced"
+msgstr "Avansate"
+
+msgctxt "#30061"
+msgid "Encoding priority"
+msgstr "Prioritate encoding"
+
+msgctxt "#30062"
+msgid "UTF-8"
+msgstr "UTF-8"
+
+msgctxt "#30063"
+msgid "ISO-8859-2"
+msgstr "ISO-8859-2"
+
+msgctxt "#30064"
+msgid "Windows-1250"
+msgstr "Windows-1250"
+
+msgctxt "#30065"
+msgid "Auto-detect"
+msgstr "Auto-detect"
+
+msgctxt "#30066"
+msgid "Decoding priority for diacritics"
+msgstr "Prioritatea de încercare pentru decodare diacritice"
+
+msgctxt "#30067"
+msgid "Multiple episodes in archive handling"
+msgstr "Gestionare episoade multiple în arhivă"
+
+msgctxt "#30068"
+msgid "Manual selection"
+msgstr "Selectare manuală"
+
+msgctxt "#30069"
+msgid "First subtitle"
+msgstr "Prima subtitrare"
+
+msgctxt "#30070"
+msgid "Best match"
+msgstr "Cea mai potrivită"
+
+msgctxt "#30071"
+msgid "[B]Manual selection[/B]: Dialog with list"
+msgstr "[B]Selectare manuală[/B]: Dialog cu listă"
+
+msgctxt "#30072"
+msgid "[B]First subtitle[/B]: Automatic, fast"
+msgstr "[B]Prima subtitrare[/B]: Automat, rapid"
+
+msgctxt "#30073"
+msgid "[B]Best match[/B]: Automatic matchmaking (recommended)"
+msgstr "[B]Cea mai potrivită[/B]: Matchmaking automat (recomandat)"
+
+msgctxt "#30074"
+msgid "Retry failed downloads automatically"
+msgstr "Reîncearcă automat download-uri eșuate"
+
+msgctxt "#30075"
+msgid "Number of retry attempts"
+msgstr "Număr de reîncercări"
+
+msgctxt "#30076"
+msgid "API request timeout (seconds)"
+msgstr "Timeout cereri API (secunde)"
+
+# ============================================================================
+#                           NOTIFICĂRI (30080-30086)
+# ============================================================================
+
+msgctxt "#30080"
+msgid "Notifications"
+msgstr "Notificări"
+
+msgctxt "#30081"
+msgid "Notify on automatic download"
+msgstr "Notificare la descărcare automată"
+
+msgctxt "#30082"
+msgid "Notify when no match found"
+msgstr "Notificare când nu găsește potrivire"
+
+msgctxt "#30083"
+msgid "Notify when using cache"
+msgstr "Notificare când folosește cache"
+
+msgctxt "#30084"
+msgid "Notify on quota warning"
+msgstr "Notificare avertisment quota"
+
+msgctxt "#30085"
+msgid "Notification duration (seconds)"
+msgstr "Durată notificări (secunde)"
+
+msgctxt "#30086"
+msgid "Sound on notifications"
+msgstr "Sunet la notificări"
+
+# ============================================================================
+#                           DEBUGGING (30090-30096)
+# ============================================================================
+
+msgctxt "#30090"
+msgid "Debugging"
+msgstr "Debugging"
+
+msgctxt "#30091"
+msgid "Enable detailed logs"
+msgstr "Activează log-uri detaliate"
+
+msgctxt "#30092"
+msgid "Logs appear in kodi.log"
+msgstr "Log-urile apar în kodi.log"
+
+msgctxt "#30093"
+msgid "Log API requests (includes URLs)"
+msgstr "Log cereri API (include URL-uri)"
+
+msgctxt "#30094"
+msgid "Log matchmaking details"
+msgstr "Log detalii matchmaking"
+
+msgctxt "#30095"
+msgid "Log cache operations"
+msgstr "Log operații cache"
+
+msgctxt "#30096"
+msgid "[COLOR yellow]Warning:[/COLOR] Detailed logs may slow down the system"
+msgstr "[COLOR yellow]Atenție:[/COLOR] Log-urile detaliate pot încetini sistemul"
+
+# ============================================================================
+#                           DESPRE (30100-30113)
+# ============================================================================
+
+msgctxt "#30100"
+msgid "About"
+msgstr "Despre"
+
+msgctxt "#30101"
+msgid "[B]Subs.ro Addon for Kodi[/B]"
+msgstr "[B]Subs.ro Addon pentru Kodi[/B]"
+
+msgctxt "#30102"
+msgid "Version: 2.0.0"
+msgstr "Versiune: 2.0.0"
+
+msgctxt "#30103"
+msgid "[B]Features:[/B]"
+msgstr "[B]Funcționalități:[/B]"
+
+msgctxt "#30104"
+msgid "• Smart matchmaking (episode/source/group)"
+msgstr "• Matchmaking inteligent (episod/sursă/grup)"
+
+msgctxt "#30105"
+msgid "• Local cache for performance"
+msgstr "• Cache local pentru performanță"
+
+msgctxt "#30106"
+msgid "• VFS support for RAR/ZIP"
+msgstr "• Suport VFS pentru RAR/ZIP"
+
+msgctxt "#30107"
+msgid "• Automatic multiple episode handling"
+msgstr "• Gestionare automată episoade multiple"
+
+msgctxt "#30108"
+msgid "• Automatic diacritics encoding detection"
+msgstr "• Detectare automată encoding diacritice"
+
+msgctxt "#30109"
+msgid "• API quota checking"
+msgstr "• Verificare quota API"
+
+msgctxt "#30110"
+msgid "[B]Developers:[/B]"
+msgstr "[B]Dezvoltatori:[/B]"
+
+msgctxt "#30111"
+msgid "API: https://subs.ro/api"
+msgstr "API: https://subs.ro/api"
+
+msgctxt "#30112"
+msgid "Forum: https://forum.kodi.tv"
+msgstr "Forum: https://forum.kodi.tv"
+
+msgctxt "#30113"
+msgid "[COLOR cyan]Thanks to Subs.ro community![/COLOR]"
+msgstr "[COLOR cyan]Mulțumiri comunității Subs.ro![/COLOR]"
