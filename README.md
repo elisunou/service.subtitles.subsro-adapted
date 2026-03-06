@@ -304,6 +304,8 @@ Consultați fișierul LICENSE pentru detalii.
 
 ## ⭐ Suport
 
+https://revolut.me/ionutrevoo
+
 Dacă extensia vă este utilă:
 
 * ⭐ Acordați o stea pe GitHub
