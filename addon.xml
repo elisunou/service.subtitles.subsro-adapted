@@ -28,18 +28,19 @@
     <source>https://github.com/your-repo/service.subtitles.subsro</source>
     <news>
 v2.0.0 (2026-01-26)
-- Added intelligent matchmaking algorithm with scoring system
-- Implemented local cache for search results
-- Added API quota monitoring and warnings
-- VFS support for RAR/ZIP archives (no extraction needed)
-- Automatic encoding detection for Romanian diacritics
-- Smart handling of multiple episodes in archives
-- Configurable download modes (Auto/Manual/Ask)
-- Priority translator detection (Netflix, HBO, Amazon, etc.)
-- Episode/Season/Release group matching
-- Customizable notifications
-- Extensive debugging options
-- Full Romanian translation
+
+A fost adăugat un algoritm inteligent de potrivire (matchmaking) cu sistem de punctaj.
+A fost implementat cache local pentru rezultatele căutării.
+A fost adăugată monitorizarea limitei API și avertismente.
+Suport VFS pentru arhive RAR/ZIP (fără a fi nevoie de extragere).
+Detectare automată a codării pentru diacriticele românești.
+Gestionare inteligentă a episoadelor multiple din arhive.
+Moduri de descărcare configurabile (Automat / Manual / Întreabă).
+Detectarea translatorului prioritar (Netflix, HBO, Amazon etc.).
+Potrivire după episod / sezon / grup de release.
+Notificări personalizabile.
+Opțiuni extinse de depanare (debugging).
+Traducere completă în limba română.
 
 v1.0.0 (Initial Release)
 - Basic search and download functionality
